@@ -1,0 +1,173 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff;
+}
+div h1{
+  color: #0A3871;
+  text-decoration: underline;
+  
+}
+
+.container{
+  margin: auto;
+  width: 1080px;
+  height: 650px;
+  padding: 5px;
+}
+
+.logo{
+  width: 100%;
+  float: left;
+  
+}
+
+.left{
+  float:left;
+  width: 70%;
+  height: 70%;
+  border-radius: 24px;
+}
+
+.right{
+  float:right;
+  width: 30%;
+  height: auto;
+  border-radius: 24px;
+  background: white;
+}
+
+.left-button{
+  float: left;
+  width: 67%;
+  height: auto
+  border-radius: 24px;
+}
+
+.logoImg{
+  margin-top: 1%;
+  margin-left: 5%;
+  float: inherit;
+}
+
+h1{
+  float: inherit;
+  margin-left: 20%;
+}
+
+.text-input{
+  float: left;
+  margin-left: 20%;
+  margin-top: 10%;
+  width: 80%;
+  height: 10%;
+  color: #0A3871;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: #f3f5fc;
+}
+
+#imgdireita{
+  margin-left: 2%;
+  margin-top: 30%;
+  width: 90%;
+  height: auto;
+}
+
+#texto{
+  margin-left: 3%;
+  margin-right: 5%;
+  font-size: 25px;
+  text-align: center;
+}
+
+#texto2{
+  float: left;
+  margin-top: 20%;
+  margin-left: 10%;
+  color: #0A3871;
+  width: 80%;
+  height: 10%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+  outline: none;
+
+}
+
+p{
+  margin-left: 20%;
+}
+#btn-codificar{
+  padding: 30px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 20%;
+  background: #0A3871;
+  color: #d8dfe8;
+  font-weight: bold;
+  border: none;
+}
+
+#btn-codificar:hover{
+  color: #0A3871;
+  background: #d8dfe8;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+#btn-codificar:active{
+  transform: scale(1.2);
+}
+
+
+
+#btn-decodificar:hover{
+  background: #0A3871;
+  color: #d8dfe8;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+
+#btn-decodificar{
+  padding: 30px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left:1%;
+  background: #d8dfe8;
+  font-weight: bold;
+  color: #0A3871;
+  border: none;
+}
+
+#copiar{
+  margin-left: 33%;
+  margin-top: 30%;
+  padding: 30px;
+  width: 40%;
+  height: 10%;
+  background: #d8dfe8;
+  border-radius: 24px;
+  display: none;
+  border: none;
+  color: #0A3871;
+  font-weight: bold;
+}
+
+#copiar:hover{
+  color: #d8dfe8;
+  background: #0A3871;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+footer{
+  width: 100%;
+  margin-left: 30%;
+}
