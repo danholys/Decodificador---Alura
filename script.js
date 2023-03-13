@@ -1,10 +1,10 @@
 function codificar() {
   var texto = document.getElementById('inputTexto').value.toLowerCase()
-  var texto_cifrado = texto.replace(/e/gim, 'enter')
-  var texto_cifrado = texto_cifrado.replace(/o/gim, 'ober')
-  var texto_cifrado = texto_cifrado.replace(/i/gim, 'imes')
-  var texto_cifrado = texto_cifrado.replace(/a/gim, 'ai')
-  var texto_cifrado = texto_cifrado.replace(/u/gim, 'ufat')
+  var texto_cifrado = texto.replace(/e/gim, 'arssypsrowxyz')
+  var texto_cifrado = texto_cifrado.replace(/o/gim, 'cvbdfgsderxvcx')
+  var texto_cifrado = texto_cifrado.replace(/i/gim, 'sadasdasddfgdfghdfcvvbvcdfg')
+  var texto_cifrado = texto_cifrado.replace(/a/gim, 'dfdfgdfgdfg')
+  var texto_cifrado = texto_cifrado.replace(/u/gim, 'dfgbdfgbdsfgsdfgsdfgsdfgsdfgsdfg')
 
   document.getElementById('imgdireita').style.display = 'none'
   document.getElementById('texto').style.display = 'none'
